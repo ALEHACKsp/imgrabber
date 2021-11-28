@@ -25,7 +25,7 @@ print (f"""{b}
 (__ /       .-/   .-/
            (_/   (_/
 {p}Images Grab
-Author  : Firmansyahken
+Author  : Pamekasancode Team
 """)
 url = input("Url	: ")
 directory()
