@@ -5,11 +5,7 @@ b = "\033[96m"
 m = "\033[91m"
 p = "\033[97m"
 def clear():
-	try:
-		os.system("clear")
-	except OSError:
-		os.system("cls")
-
+	os.system("clear || cls")
 clear()
 def directory():
 	try:
